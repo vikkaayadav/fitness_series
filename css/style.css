@@ -1,0 +1,772 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    width: 100%;
+    background-image: url(../images/fitness.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .my-navigation{
+    width: 100%;
+    background: none;
+    border: 0;
+  
+}
+.my-navigation .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.my-navigation .navbar-brand span{
+    color: rgb(248, 108, 58);
+}
+#mynavbar ul li a  {
+    color:#fff;
+}
+#mynavbar ul li span{
+    color: rgb(248, 108, 58);
+}
+
+.nav-button{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: rgb(248, 108, 58);
+    border: 0;
+    float: right;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.banner{
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    
+}
+.banner h5{
+   position: relative;
+   top: 30px;
+}
+.banner h1{
+    font-weight: 800;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+.banner h1 span{
+    color: rgb(248, 108, 58);
+}
+.banner button{
+    color: #fff; 
+    background-color: rgb(248, 108, 58);
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+
+
+/* BIG-WRAPPER STARST */
+.big-wrapper{
+    width: 100%;
+   margin-top: 50px;
+}
+
+.head-box{
+    color: #fff;
+    text-align: center;
+}
+.head-box h1{
+    color: #000;
+}
+.head-box h1 span {
+    color: rgb(248, 108, 58);
+}
+.head-box p {
+    color: gray;
+    font-weight: 300;
+}
+.head-box h4 span{
+    color: coral;
+}
+.big-wrapper .programe-file{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.big-wrapper .programe-file .left-file section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.big-wrapper .programe-file .left-file .left-box{
+    background-color: #fff;
+}
+.big-wrapper .programe-file .left-file .right-box{
+    background-color: #fff;
+}
+.big-wrapper .programe-file .left-file img{
+    width: 100%;
+    background-color: coral;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.big-wrapper .programe-file .left-file h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px 4px 0px;
+}
+.big-wrapper .programe-file .left-file p span{
+    color: rgb(37, 175, 240);
+}
+.big-wrapper .programe-file .left-file p{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+    margin: 0px 0px 5px 0px;
+}
+.big-wrapper .programe-file .left-file a{
+    font-size: 13px;
+    color: coral;
+    text-decoration: none;
+}
+/* BIG-WRAPPER ENDS */
+
+
+
+/* MID-WRAPPER STARTS */
+.mid-wrapper{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px 0;
+    background-image: url(../images/pic01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mid-wrapper h1{
+    color: #fff;
+}
+.mid-wrapper h1 span{
+    color: rgb(248, 108, 58);
+}
+.mid-wrapper p{
+    color: rgb(204, 200, 200);
+   font-weight: 300;
+}
+
+.mid-wrapper button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    background-color: coral;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+/* MID-WRAPPER ENDS */
+
+
+
+/* MAIN-WRAPPER STARTS */
+.main-wrapper{
+    width: 100%;
+    margin-top: 30px;
+}
+.main-wrapper .main{
+    width: 100%;
+    border: 2px solid #dbdbdb;
+    box-shadow: 3px 3px 20px #dbdbbd;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.main-wrapper .left-main img{
+    background-color: coral;
+    border-radius: 5px;
+} 
+.main-wrapper  h3{
+    color: #000;
+}
+.main-wrapper a{
+    text-decoration: none;
+}
+.main-wrapper span{
+    color: coral;
+}
+
+.main-button button{
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    font-weight: 400;
+    margin-top: 20px; 
+    padding: 8px;
+    color: #fff;
+    background-color: coral;
+    font-family: 'Roboto', sans-serif;
+}
+.main-wrapper .right-main img{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.main-wrapper .right-main h2{
+    font-weight: 500;
+}
+
+.main-wrapper .right-main p{
+    color: gray;
+}
+.main-wrapper .right-main button{
+    background-color: coral;
+    border: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+} 
+/* MAIN-WRAPPER ENDS */
+
+
+
+/* SCHEDUALD WRAPPER STARTS */
+.schedual-wrapper{
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 50px 0px 40px 0px;
+    margin-top: 40px;
+} 
+
+.schedual-wrapper .heading{
+    color: #fff;
+}
+ .schedual-wrapper .pera{
+    color: #fff;
+    margin-bottom: 7%;
+}
+.schedual-wrapper table{
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.schedual-wrapper table td{
+    padding: 30px;
+} 
+/* SCHEDULD WRAPPER ENDS */
+
+
+
+
+ /* TRAINERS-WRAPPER STARTS*/
+.trainers-wrapper{
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+.trainers-wrapper h1{
+    color: #000;
+}
+.trainers-wrapper h5{
+    color: coral;
+    margin: 10px 0;
+}
+.trainers-wrapper h3{
+    color: #000;
+    margin: 10px 0;
+}  
+.trainers-wrapper section{
+    border: 2px solid #dbdbdb;
+    box-shadow: 3px 3px 20px #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.trainers-wrapper section img{
+    border-radius: 5px;
+}
+.trainers-wrapper section p{
+    color: gray;
+    font-weight: 300;
+    line-height: 20px;
+}
+.trainers-wrapper section span{
+    font-size: 16px;
+    margin-right: 5px;
+}
+/* TRAINERS-WRAPPER ENDS*/
+
+
+
+/* FOOTER STARTS */
+footer{
+    width: 100%;
+    background-color: rgb(37, 175, 240);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* FOOTER ENDS */
+
+
+
+
+
+
+/* MEDIA-QUERY STARS */
+@media only screen and (max-width: 790px)and (min-width: 750px) {
+    .programe-file .left-file img {
+         height: 125px;
+    } 
+    .main-wrapper h3{
+       margin-top: 5px;
+    }
+    .left-main img{
+       height: 80px;
+    }
+}
+    
+    
+    @media only screen and (max-width: 767px) and (min-width: 665px){
+        .nav-button {
+            position: relative;
+            top: -50px;
+        }
+        .navbar-toggle {
+            margin-right: 15%;
+        }
+    }
+    @media only screen and (max-width: 664px){
+        .nav-button {
+            width: 100%;
+            background-color: rgba(255, 127, 80, 0.507);
+        }
+    }
+    @media only screen and (max-width: 767px) and (min-width: 570px) {
+        .banner h1 {
+            font-weight: 800;
+            font-size: 45px;
+            position: relative;
+            top: 10px;
+            margin: 30px 0 !important;
+        }
+        .programe-file .left-file section {
+            width: 70% !important;
+            margin: 0 auto;
+            border: 1px solid #dbdbdb;
+            box-shadow: 3px 3px 20px #dbdbbd;
+            padding: 20px 10px 20px 10px ;
+            border-radius: 5px;
+        }
+        .programe-file .left-file .file-section{
+            margin-top: 40px !important;
+        }
+        
+        .big-wrapper .programe-file .left-file h4{
+            font-size: 22px;
+            font-weight: 700;
+            margin: 15px 0px;
+        }
+        
+        .big-wrapper .programe-file .left-file p{
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+    
+        .big-wrapper .programe-file .left-file a{
+            font-size: 14px;
+        }
+    
+        .mid-wrapper h1{
+            font-size: 30px;
+        }
+        .mid-wrapper p {
+            font-size: 14px;
+        }
+        .mid-wrapper p br{
+            display: none;
+        }
+    
+        .main-wrapper .main{
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .main-wrapper h3{
+            font-size: 27px;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+        .main-button{
+            width: 62%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            
+        }
+        .schedual-wrapper table {
+            width: 80%;
+        }
+        .trainers-wrapper section {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 560px) and (min-width: 400px){
+        .schedual-wrapper table{
+            width: 65%;
+            font-size: 14px;
+        }
+        .schedual-wrapper table td{
+            padding: 20px;
+        } 
+        
+        .head-box h4{
+            font-size: 15px;
+        }
+        .mid-wrapper h1{
+            font-size: 30px;
+        }
+        .mid-wrapper p {
+            font-size: 12px;
+        }
+    } 
+   
+    
+
+    @media only screen and (max-width: 570px){
+        .programe-file .left-file section {
+          border: 1px solid #dbdbdb;
+          padding: 15px;
+          border-radius: 10px;
+          box-shadow: 3px 3px 20px #dbdbbd;
+        
+        }
+        .main-wrapper .main {
+            border: 1px solid #dbdbbd;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .trainers-wrapper section {
+            border: 1px solid #dbdbdb;
+            padding: 25px;
+            border-radius: 10px;
+        }
+           
+    }
+    
+    @media only screen and (max-width: 570px) and (min-width: 500px)  {
+    
+        .my-navigation .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 21px !important;
+        }
+    
+        .banner h1{
+            font-size: 35px;
+        }
+    
+        .banner button{
+            font-size: 12px;
+        }
+        .head-box h1{
+            font-size: 30px;
+        }
+        .head-box p, .mid-wrapper p{
+            font-size: 13px;
+        }
+        .main-wrapper .right-main p {
+            font-size: 13px;
+        }
+        .main-wrapper .right-main button{
+            font-size: 12px;
+        }
+         .mid-wrapper p br{
+            display: none;
+        }
+        
+        .main-wrapper h3 {
+           font-size: 22px;
+        }
+
+        .main-button{
+            width: 62%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }
+    
+    
+@media only screen and (max-width: 470px){
+    body br{
+        display: none;
+    }
+        
+    .my-navigation .navbar-brand {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .banner h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .banner h5{
+        font-size: 12px;
+    }
+    
+    .banner button {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .navbar-toggle {
+        padding: 5px 5px;
+    }
+    .navbar-toggle .icon-bar{
+        width: 14px;
+        height: 1px;
+    }
+
+    .head-box h1{
+        font-size: 30px;
+    }
+    .head-box p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .big-wrapper .programe-file .left-file h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 12px 0px;
+    }
+    .big-wrapper .programe-file .left-file p {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .big-wrapper .programe-file .left-file a {
+        font-size: 13px;
+    }
+    .mid-wrapper h1 {
+        font-size: 25px;
+    }
+    
+    .mid-wrapper p{
+        font-size: 12px;
+    }
+    .mid-wrapper button {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    
+    .main-wrapper h3 {
+        font-size: 23px;
+        font-weight: 500;
+        margin: 15px 0;
+    }
+    .main-wrapper .right-main img {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .main-wrapper .right-main h2 {
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .main-wrapper .right-main p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .main-wrapper .right-main button {
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .head-box h4{
+        font-size: 12px;
+    }
+    .schedual-wrapper table{
+        width: 60%;
+        font-size: 12px;
+    }
+    .schedual-wrapper table td{
+        padding: 12px;
+    } 
+    .trainers-wrapper h3 {
+        font-size: 20px;
+    }
+    .trainers-wrapper section p {
+        font-size: 12px;
+       line-height: 18px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
+
+    @media only screen and (max-width: 350px){
+        .my-navigation .navbar-brand {
+            font-weight: 500;
+            font-size: 15px;
+        }
+        .banner h1 {
+            font-weight: 500;
+            font-size: 25px;
+           position: relative;
+           top: 15px;
+        }
+        .banner h5 {
+            font-size: 11px;
+        }
+        .banner button {
+            font-weight: 300;
+            font-size: 11px;
+            margin: 20px 0;
+        }
+        .head-box h1 {
+            font-size: 25px;
+        }
+        .head-box p {
+            font-size: 11px;
+            font-weight: 300;
+        }
+        .head-box img{
+            width: 80px;
+        }
+        .big-wrapper .programe-file .left-file section {
+            width: 85%;
+            margin-top: 20px;
+        }
+        .big-wrapper .programe-file .left-file p {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+        .mid-wrapper h1 {
+            font-size: 20px;
+        }
+        .mid-wrapper p {
+            font-size: 11px;
+        }
+        .mid-wrapper button {
+            font-weight: 200;
+            font-size: 11px;
+        }
+        .main-wrapper .main {
+            width: 85%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .main-wrapper h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .main-button  {
+            width: 85%;
+            margin: 0 auto;
+        }
+        .main-wrapper .right-main{
+            margin-top: 30px;
+        }
+        .main-wrapper .right-main h2 {
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .main-wrapper .right-main p {
+            font-size: 11px;
+            line-height: 18px;
+        }
+        .main-wrapper .right-main button {
+            font-weight: 300;
+            font-size: 11px;
+        }
+        .head-box h4 {
+            font-size: 11px;
+            font-weight: 400;
+        }
+        .schedual-wrapper table{
+            width: 60%;
+            font-size: 10px;
+        }
+        .schedual-wrapper table td{
+            padding: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 300px){
+        .schedual-wrapper table{
+            width: 50%;
+            font-size: 10px;
+        }
+
+        #mynavbar ul li a {
+            font-size: 12px;
+        }
+
+        .schedual-wrapper table td{
+            padding: 5px;
+        }
+        .big-wrapper .programe-file .left-file h4 {
+            font-size: 17px;
+            font-weight: 400;
+            margin: 12px 0px;
+        }
+        .main-wrapper h3 {
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .programe-file .left-file section {
+          padding: 10px;
+          border-radius: 10px;
+        }
+
+        .main-wrapper .main {
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .trainers-wrapper section {
+            padding: 20px;
+            border-radius: 10px;
+        }
+    
+        footer p{
+            font-size: 11px;
+        }
+    }
+    
+
+    /* MEDIAQUERY ENDS */
+    
+    
+    
+    
+    
+    
+    
+    
